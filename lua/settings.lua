@@ -3,6 +3,8 @@ vim.opt.showcmd = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
 vim.opt.swapfile = false
+vim.opt.foldmethod = "indent"
+vim.opt.foldlevelstart = 99
 
 vim.opt.expandtab = true
 vim.opt.tabstop = 2
