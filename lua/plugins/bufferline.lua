@@ -36,6 +36,10 @@ return {
 			vim.keymap.set("n", "<leader>ba", function()
 				require("close_buffers").delete({ type = "all" })
 			end, { desc = "Close all buffers" })
+
+			vim.keymap.set("n", "<leader>bd", function()
+				require("close_buffers").delete({ type = "this" })
+			end, { desc = "Close current buffer" })
 		end,
 	},
 }
