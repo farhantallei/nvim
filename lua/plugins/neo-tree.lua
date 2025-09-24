@@ -42,7 +42,7 @@ return {
 
 		vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>", {})
 
-		vim.keymap.set("n", "<leader>b", function()
+		vim.keymap.set("n", "<leader>bb", function()
 			-- if neo-tree is open, close it. if it's closed, filesystem reveal left
 			local is_open = false
 

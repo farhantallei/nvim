@@ -16,6 +16,7 @@ return {
 					"tailwindcss",
 					"gopls",
 					"docker_compose_language_service",
+					"emmet_ls",
 				},
 			})
 		end,
