@@ -33,10 +33,10 @@ end
 
 -- Copy full path of current file
 vim.keymap.set("n", "<leader>yp", function()
-  vim.fn.setreg("+", vim.fn.expand("%:p"))
+  vim.fn.setreg("+", vim.fn.expand("%:."))
 end, { desc = "Copy full file path" })
 
 -- Copy directory of current file
 vim.keymap.set("n", "<leader>yd", function()
-  vim.fn.setreg("+", vim.fn.expand("%:p:h"))
+  vim.fn.setreg("+", vim.fn.expand("%:.:h"))
 end, { desc = "Copy file directory" })
